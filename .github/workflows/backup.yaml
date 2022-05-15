@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.4
-    - name: backup
-      uses: jenkins-zh/git-backup-actions@v0.0.4
+    - name: orbit
+      uses: linuxsuren/orbit-assistant@master
       env:
-        GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
-        TARGET_GIT: "git@gitee.com:linuxsuren/github-go.git"
+        ORBIT_TOKEN: ${{ secrets.ORBIT_TOKEN }}
