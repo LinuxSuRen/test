@@ -4,3 +4,7 @@ records:
     date: 2022-05-10
     type: meeting
     title: I'm doing this
+  - github: linuxsuren
+    date: 2022-05-20
+    type: meeting
+    title: This was happened on 2022-05-20
