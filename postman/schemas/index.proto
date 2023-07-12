@@ -1,0 +1,6 @@
+package server;
+
+message Person {
+    string name = 1;
+    string good = 2;
+}
