@@ -7,3 +7,4 @@
 Please run the following command, after you created your project base on this template repository:
 
 `./hack/init.sh <your project name>`
+e
